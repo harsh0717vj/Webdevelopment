@@ -1,0 +1,32 @@
+
+html,body{
+    background-color: beige;
+}
+h1{
+    border: solid 3px black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: chocolate;
+    color: cyan;
+    font-size: larger;
+    font-style: initial;
+    padding: 20px 25px;
+    margin: 20px 30px;
+}
+p{
+    border: solid 3px rgb(123, 171, 17);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(50, 8, 20);
+    color: rgb(84, 48, 203);
+    font-style: italic;
+    font-size: 30px;
+    padding: 20px 25px;
+    margin: 20px 30px;
+}
