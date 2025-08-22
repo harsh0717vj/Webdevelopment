@@ -1,0 +1,38 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+} */
+img{
+    width: 400px;
+    height: 400px;
+    margin: 3px;
+    padding: 2px;
+}
+div{
+    border: 2px solid black;
+}
+.container{
+    position: relative;
+    height: 800px;
+    background-color: aqua;
+}
+.image2{
+    position: relative;
+    top: 100px;
+    right: 20px;
+    left: 40px;
+    bottom: 30px;
+}
+.image3{
+    position: sticky;
+    top: 100px;
+
+}
+.image4{
+    position: fixed;
+}
+.box{
+    background-color: blue;
+    height: 1000px;
+    
+}
