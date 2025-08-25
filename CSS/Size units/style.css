@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.box{
+    border: 2px,solid,black;
+    width: 50%;
+}
+.parent{
+    border: 1px solid black;
+    background-color: beige;
+    margin: 4px;
+    width: 50%;
+}
+.child{
+    border: 1px solid black;
+    background-color: aqua;
+    width: 20%;
+    margin: 4px;
+}
+.container{
+    border: 1px solid black;
+    background-color: goldenrod;
+    height: 100vh;
+    width: 50vw;
+}
+.box1{
+    border: 2px solid greenyellow;
+    background-color: brown;
+    font-size: 100px;
+}
+.wrapper{
+    font-size: 1em;
+}
+.px{
+    width: 200px;
+}
+.vw{
+    width: 10vw;
+}
+.em{
+    writing-mode: 10em;
+}
+.container2{
+    font-size: 10px;
+    padding: 5px;
+    border: 2px solid violet;
+}
+.box2{
+    padding: 4px;
+    font-size: 10em;
+    border: 2px solid black;
+}
+.firstpara{
+    border: 1px solid black;
+    font-size: 5rem;
+}
