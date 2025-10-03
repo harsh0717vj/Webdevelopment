@@ -1,0 +1,62 @@
+let a=10;
+let b=5;
+console.log(a+b);
+console.log(a-b);
+console.log(a*b);
+console.log(a/b);
+console.log(a%b);
+console.log(a**b);
+console.log(--a);
+console.log(a);
+console.log(a--);
+console.log(a);
+console.log(++b);
+console.log(b);
+console.log(b++);
+console.log(b);
+a/=2;
+console.log(a);
+console.log(a>b);
+console.log(a<b);
+console.log(a>=b);
+console.log(a<=b);
+console.log(a==b);
+console.log(a!=b);
+console.log(a===b);
+console.log(a!==b);
+let age=25;
+let status1=(age>18)?'I can Vote':'I cannot Vote';
+console.log(status1);
+console.log(1&0);
+console.log(1|0);
+console.log(~0);
+console.log(1^0);
+console.log(6<<2);
+console.log(2000>>1);
+//if-else statements
+if(age>18) console.log('Can Vote');
+else console.log('Cannot vote');
+//if-else-if statements
+let num=2;
+if(num>0) console.log('Number is greater than 0');
+else if(num<0) console.log('Number is less than 0');
+else console.log('Number is equal to 0');
+//switch case
+let choice=6;
+switch(choice){
+    case 1: console.log('Monday');
+    break;
+    case 2: console.log('Tuesday');
+    break;
+    case 3: console.log('Wednesday');
+    break;
+    case 4: console.log('Thursday');
+    break;
+    case 5: console.log('Friday');
+    break;
+    case 6: console.log('Saturday');
+    break;
+    case 7: console.log('Sunday');
+    break;
+    default: console.log('Invalid Choice');
+}
