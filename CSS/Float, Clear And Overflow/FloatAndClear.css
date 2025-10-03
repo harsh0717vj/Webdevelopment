@@ -1,0 +1,20 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    height:100%;
+    width:100%;
+}
+#img1{
+ float: right;
+ height: 30%; 
+ 
+}
+#img2{
+    float: right;
+    height: 30%;
+    clear: right; 
+}
