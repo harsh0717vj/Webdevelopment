@@ -7,6 +7,9 @@ let obj={
         console.log("Hello all");
     }
 };
+for(let key in obj){
+    console.log(key," ",obj[key]);
+}
 console.log(obj);
 obj.greet();
 console.log(typeof(obj));
@@ -57,4 +60,57 @@ let drr=[1,2,'Harsh','vardhan',null];
 let str=drr.filter((value)=>{
     return typeof(value)=='string';
 })
-console.log(str); 
+console.log(str);
+//reduce
+let err=[1,2,3,4,5];
+ let bns=err.reduce((acc,curr)=>{
+    return acc+curr;
+ },0);
+ console.log(bns);
+ //sort
+ let orr=[8,2,44,65,23];
+ orr.sort();
+ console.log(orr);
+ console.log(orr.indexOf(65));
+ let element=orr.find(num=>num>30)
+ console.log(element);
+ //length
+ let length=orr.length;
+ console.log(length);
+ for(let i=0;i<length;i++){
+    console.log(orr[i]);
+ }
+ orr.forEach((value,index) => {
+    console.log("Number: ",value," Index: ",index);
+ });
+for(let key in orr){
+    console.log(key," ",orr[key]);
+}
+for(let value of orr){
+    console.log(value);
+}
+let ex='Harsh';
+for(let alpha of ex){
+    console.log(alpha);
+}
+//Passing Arrays in Functions
+function getsum(orr){
+    let len=orr.length;
+    let sum=0;
+    for(let i=0;i<len;i++){
+        sum+=orr[i];
+    }
+    return sum;
+}
+let add=getsum(orr);
+console.log(add);
+//Method 2
+function method2(arr){
+    let sum=0;
+    arr.forEach((ele)=>{
+        sum+=ele;
+    })
+    return sum;
+}
+let addd=method2(arr);
+console.log(addd);
