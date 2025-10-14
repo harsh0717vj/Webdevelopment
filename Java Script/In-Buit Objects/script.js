@@ -1,48 +1,19 @@
-class Human{
-    //properties
-    age=13;
-    #wt=80;
-    ht=100;
-    speed;
-    constructor(newSpeed,newHeight){
-        this.speed=newSpeed;
-        this.ht=newHeight;
-    }
-    //behaviour
-    walking(){
-        console.log('I am Walking ',this.#wt);
-    }
-    running(){
-        console.log("I am running");
-    }
-    get fetchWeight(){
-        return this.#wt;
-    }
-    set modifyWeight(val){
-        this.#wt=val;
-    }
-}
-let obj=new Human();
-console.log(obj.age);
-obj.running();
-obj.walking();
-let object=new Human(50,190);
-console.log(object.speed);
-console.log(object.ht);
-obj.walking();
-//Default Parameter
-function sayName(fName='Milkha',lName=fName.toUpperCase()){
-    console.log("My Name is: ",fName,lName);
-}
-sayName();
-function solve(value=8){
-    console.log('Square: ',value**2)
-}
-solve(undefined);
-function getAge(){
-    return 20;
-}
-function utility(name1='Harsh',age=getAge()){
-    console.log(name1," ",age);
-}
-utility();
+//Commonn In-Built Objects
+console.log(Math.PI);
+console.log(Math.max(1,2,3,6,43,654,4));
+console.log(Math.min(6,87,2,8,21,5,-9));
+console.log(Math.round(1.3));
+console.log(Math.floor(1.4));
+console.log(Math.ceil(8.3));
+console.log(Math.abs(-6));
+console.log(Math.random());
+console.log(Math.sqrt(5));
+console.log(Math.pow(9,3));
+//Date And Time
+ let curr=new Date();
+ console.log( curr );
+ let newe= new Date('June 20 1998 07:15');
+ console.log( newe );
+ let newDate= new Date(1998, 5, 20, 7);
+ console.log( newDate );
+ console.log(newDate.getHours())
